@@ -1,6 +1,16 @@
 This is a multi-threaded CPU miner for Litecoin, Bitcoin and Tlascoin,
 fork of pooler's reference cpuminer.
 
+tls-cpuminer by flywalker, stratum-patched by Atrides
+
+How to use:
+minerd -t8 --algo=twister --url stratum+tcp://erebor.dwarfpool.com:3351/ --user YOUR_COIN_WALLET --pass 1
+
+where "t" is threds of your CPU:
+Xeon and i7 = max 8
+i5 = max 4
+
+
 License: GPLv2.  See COPYING for details.
 
 Git tree:   https://github.com/flywalk/tls-cpuminer
